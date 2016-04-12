@@ -2,6 +2,10 @@ html, body {
 	height: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 .navbar {
     margin-bottom: 0px !important;
 }
@@ -30,7 +34,7 @@ html, body {
 
 #stage-caption h1 {
     font-family: 'Audiowide', cursive;
-	font-size : 60px;
+	font-size : 5em;
     text-shadow: white 0.1em 0.1em 0.2em;
 }
 
@@ -86,14 +90,14 @@ html, body {
 
 .feature-content h2 {
     font-weight: 200;
-    font-size: 40px;
+    font-size: 3em;
     font-family: 'Audiowide', cursive;
     color: snow;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .feature-content p {
-    font-size: 30px;
+    font-size: 2em;
     color: snow;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -109,10 +113,14 @@ html, body {
 
 #feature-two h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 3.2em;
   font-weight: bold;
   text-shadow: black 0.1em 0.1em 0.2em;
   padding-bottom: 20px;
+}
+
+.caption {
+        text-align: center;    
 }
 
 #feature-three {
@@ -126,7 +134,7 @@ html, body {
 }
 
 .feature-contact p {
-    font-size: 30px;
+    font-size: 2.2em;
     font-weight: bold;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -136,6 +144,11 @@ html, body {
     background: #222222;
     color: white;
     padding: 3rem 0;
+    font-size: 1em;
+}
+
+#main-footer ul {
+    text-decoration: none;
 }
 
 @media screen and ( min-width: 991px) {
