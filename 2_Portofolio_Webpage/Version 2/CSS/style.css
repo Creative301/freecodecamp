@@ -1,0 +1,144 @@
+html, body {
+	height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+#stage {
+	background: url('https://ciljianblog.files.wordpress.com/2016/03/stage1.jpg') fixed center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#stage-caption {
+	font-size: 1.4 rem;
+	font-weight: 200;
+	max-width: 80rem;
+	margin: 0 auto;
+	text-align: center;
+   font-weight: bold;
+}
+
+#stage-caption h1 {
+    font-family: 'Audiowide', cursive;
+	font-size : 5em;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+#stage-caption h2 {
+    font-size : 2.5em;
+    color: snow;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.btn-success {
+    background-color: #006400 !important;
+    border-color: #006400 !important;
+}
+
+.btn-success:hover {
+    background-color: #014f01 !important;
+    border-color: #014f01 !important;
+}
+
+.btn-warning {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+.btn-warning:hover {
+    background-color: #1f1f1f !important;
+    border-color: #1f1f1f !important;
+}
+
+.btn-lg:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+    
+#feature-one {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.feature-content img {
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+    width: 250px;
+}
+
+.feature-content h5 {
+    font-weight: bold;
+    color: black;
+}
+
+.feature-content p {
+    font-size: 2em;
+    color: black;
+}
+
+#feature-two {
+	background: url('https://ciljianblog.files.wordpress.com/2016/03/rooftops-1258857_12801.jpg') fixed center center no-repeat;
+	background-size: cover;
+	color: white;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#feature-two h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  padding-bottom: 20px;
+}
+
+.caption {
+        text-align: center;    
+}
+
+#feature-three {
+	height: 550px;
+	width: 100%;
+	display: flex;
+    padding: 5rem 0;
+}
+
+#main-footer {
+    background: #222222;
+    color: white;
+    padding: 3rem 0;
+    font-size: 1em;
+}
+
+#main-footer ul {
+    text-decoration: none;
+}
+
+#main-footer a {
+    color: white;
+}
+
+@media screen and ( min-width: 991px) {
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+}
